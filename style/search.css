@@ -1,0 +1,415 @@
+/*清除浏览器默认样式*/
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+html,body {
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+	width: 100%;
+	background-color: #ffffff;
+	min-width:1200px;
+}
+
+img {
+	border-style: none;
+}
+
+
+.search_header{
+	width: 100%;
+	height: 30px;
+	/*border: 1px solid red;*/
+	background-color: transparent;
+}
+
+.search_header_content{
+	width: 1200px;
+	height: 29px;
+	margin: 0 auto;
+	background-color: transparent;
+	/*border-bottom: 1px solid #e8eaed;*/
+	border-bottom: 1px solid #f2f3f4;
+	opacity: 0.62;
+	/*opacity:0.32;*/
+	filter:alpha(opacity=62);
+	text-align: center;
+}
+
+.search_header_content span{
+	color: #000000;
+	line-height: 28px;
+	float: left;
+	font-size: 12px;
+	font-family: "microsoft yahei",arial, "Hiragino Sans GB", "Hiragino Sans GB W3", 宋体;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.search_header_content span:hover{
+	opacity: 0.62;
+}
+
+.search_header_content_icon{
+	height: 28px;
+	width: 28px;
+	background-color: transparent;
+	opacity: 0.8;
+	/*border-right: 1px solid blue;*/
+	float: right;
+	cursor: pointer;
+}
+
+.search_header_content_icon:hover{
+	opacity: 0.62;
+}
+
+.search_header_content_icon img{
+	height: 28px;
+	width: 28px;
+	border: 0px;
+}
+
+.main_container{
+	width: 1200px;
+	height: 600px;
+	background-color: #ffffff;
+	/*border: 1px solid #00ffff;*/
+	margin: 0 auto;
+}
+
+.logo_container{
+	width: 100%;
+	height: 112px;
+	background-color: transparent;
+	margin: 0 auto;
+	margin-top: 128px;
+	/*border: 1px solid blue;*/
+}
+#logo_box{
+	width: 320px;
+	height: 64px;
+	/*background-color: red;*/
+	/*background:-webkit-gradient(linear, 0 0, 100% 100%, from(#4745a9), to(#a0e8c6));*/
+	background: -webkit-linear-gradient(90deg, #4745a9,#3479d7,#a0e8c6); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(90deg, #4745a9,#3479d7, #a0e8c6); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(90deg, #4745a9,#3479d7, #a0e8c6); /* Firefox 3.6 - 15 */
+    background: linear-gradient(90deg, #4745a9,#3479d7, #a0e8c6); /* 标准的语法（必须放在最后） */
+
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	/*border: 1px solid blue;*/
+
+   /* -webkit-animation: DynamicShading 1s linear infinite;
+    -moz-animation: DynamicShading 1s linear infinite;
+    -o-animation: DynamicShading 1s linear infinite;
+    animation: DynamicShading 1s linear infinite;*/
+}
+
+@-webkit-keyframes DynamicShading{
+	
+}
+@-moz-keyframes DynamicShading{
+
+}
+
+@-o-keyframes DynamicShading{
+
+}
+
+@keyframes DynamicShading{
+	0% {
+	background: -webkit-linear-gradient(0deg, #4745a9,#3479d7,#a0e8c6); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(0deg, #4745a9,#3479d7, #a0e8c6); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(0deg, #4745a9,#3479d7, #a0e8c6); /* Firefox 3.6 - 15 */
+    background: linear-gradient(0deg, #4745a9,#3479d7, #a0e8c6); /* 标准的语法（必须放在最后） */
+	}
+	100% {
+	background: -webkit-linear-gradient(270deg, #4745a9,#3479d7,#a0e8c6); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(270deg, #4745a9,#3479d7, #a0e8c6); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(270deg, #4745a9,#3479d7, #a0e8c6); /* Firefox 3.6 - 15 */
+    background: linear-gradient(270deg, #4745a9,#3479d7, #a0e8c6); /* 标准的语法（必须放在最后） */ 
+	}
+}
+
+#logo_box img{
+	width: 320px;
+	height: 64px;
+	border: 0px;
+}
+
+.search_container{
+	width: 100%;
+	height: 48px;
+	background-color: transparent;
+	margin: 0 auto;
+	/*margin-top: 48px;*/
+	/*border: 1px solid blue;*/
+}
+
+.search_box{
+	width: 560px;
+	height: 44px;
+	background-color: #f2f3f4;
+	/*border: 1px solid #eaedf0;*/
+	/*background-color: #ffffff;
+	border:1px solid #eaedf0;*/
+	border-radius: 24px;
+	margin: 0 auto;
+}
+
+div.search_box:hover{
+	background-color: #e8eaed;
+	/*background-color: #ffffff;
+	border:1px solid #bee5d6;*/
+}
+
+.search_box input{
+	width: 446px;
+	height: 32px;
+	font-size: 14px;
+	font-family: "microsoft yahei",arial, "Hiragino Sans GB", "Hiragino Sans GB W3", 宋体;
+	border-width: 0;
+	/*border: 1px solid red;*/
+	display: inline;
+	float: left;
+	outline: none;
+	background-color: transparent;
+	line-height: 32px;
+	margin-top: 6px;
+	margin-left: 24px;
+	text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+}
+
+/*修改input框默认显示的字体颜色*/
+
+/*chrome谷歌浏览器，Safari苹果浏览器*/
+.search_box input::-webkit-input-placeholder{
+	color: #b0b7c1;
+}
+
+/*firefox火狐浏览器*/
+.search_box input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */ 
+	color: #b0b7c1;
+} 
+.search_container input::-moz-placeholder { /* Mozilla Firefox 19+ */ 
+	color: #b0b7c1;
+}
+
+/*IE浏览器*/
+.search_box input:-ms-input-placeholder { /* Internet Explorer 10+ */ 
+	color: #b0b7c1;
+}
+
+.search_btn_container_box{
+	width: 120px;
+	height: 160px;
+	/*border: 1px solid blue;*/
+	background-color: transparent;
+	float: right;
+	position: relative;
+	top: -93px;
+	left: 72px;
+	z-index: 1;
+}
+
+.search_btn_container{
+	width: 48px;
+	height: 160px;
+	/*border: 1px solid red;*/
+	background-color: transparent;
+	float: left;
+	position: relative;
+	left: 1px;
+	z-index: 2;
+}
+
+.search_btn{
+	width: 36px;
+	height: 36px;
+	border: 1px solid #f2f3f4;
+	background-image: url(../img/google_search_btn1.png);
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-color: #ffffff;
+	border-radius: 24px;
+	float: right;
+	margin-top: 4px;
+	margin-right: 4px;
+	cursor: pointer;
+	z-index: 4;
+	opacity: 1;
+
+	transition:width 0.5s;
+	-moz-transition:width 0.5s; /* Firefox 4 */
+	-webkit-transition:width 0.5s; /* Safari and Chrome */
+	-o-transition:width 0.5s; /* Opera */
+}
+
+.search_btn:hover{
+	width: 80px;
+	transition:width 0.5s;
+	-moz-transition:width 0.5s; /* Firefox 4 */
+	-webkit-transition:width 0.5s; /* Safari and Chrome */
+	-o-transition:width 0.5s; /* Opera */
+	cursor: pointer;
+	opacity: 1;
+	/*border: 1px solid #dee2e9;*/
+}
+
+#soso_search{
+	position: relative; 
+	top: -6px; 
+	left: -48px; 
+	background-image: url(../img/soso_search_btn.png); 
+	visibility: hidden;
+	z-index: 3;
+
+	transition:top 0.5s,left 0.5s,width 0.5s;
+	-moz-transition:top 0.5s,left 0.5s,width 0.5s; /* Firefox 4 */
+	-webkit-transition:top 0.5s,left 0.5s,width 0.5s; /* Safari and Chrome */
+	-o-transition:top 0.5s,left 0.5s,width 0.5s; /* Opera */
+}
+
+#sougou_search{
+	position: relative; 
+	/*top: -48px; 
+	left: 0px; */
+	top: 12px;
+	background-image: url(../img/sougou_search_btn.png); 
+	visibility: visible;
+	z-index: 3;
+
+	transition:top 0.5s,left 0.5s,width 0.5s;
+	-moz-transition:top 0.5s,left 0.5s,width 0.5s; /* Firefox 4 */
+	-webkit-transition:top 0.5s,left 0.5s,width 0.5s; /* Safari and Chrome */
+	-o-transition:top 0.5s,left 0.5s,width 0.5s; /* Opera */
+}
+
+#qihu360_search{
+	position: relative; 
+	/*top: -72px; 
+	left: 44px; */
+	top: -30px;
+	left: 0px;
+	background-image: url(../img/360_search_btn.png); 
+	visibility: visible;
+	z-index: 3;
+
+
+	transition:top 0.5s,left 0.5s,width 0.5s;
+	-moz-transition:top 0.5s,left 0.5s,width 0.5s; /* Firefox 4 */
+	-webkit-transition:top 0.5s,left 0.5s,width 0.5s; /* Safari and Chrome */
+	-o-transition:top 0.5s,left 0.5s,width 0.5s; /* Opera */
+}
+
+#baidu_search{
+	position: relative; 
+	top: -72px; 
+	left: 0px; 
+	background-image: url(../img/baidu_search_btn.png); 
+	width: 80px; 
+}
+
+#google_search{
+	position: relative; 
+	/*top: -114px; 
+	left: 64px;*/ 
+	top: -114px;
+	left: 0px;
+	visibility: visible;
+	z-index: 3;
+
+	transition:top 0.5s,left 0.5s,width 0.5s;
+	-moz-transition:top 0.5s,left 0.5s,width 0.5s; /* Firefox 4 */
+	-webkit-transition:top 0.5s,left 0.5s,width 0.5s; /* Safari and Chrome */
+	-o-transition:top 0.5s,left 0.5s,width 0.5s; /* Opera */
+}
+
+#taobao_search{
+	position: relative; 
+	top: -96px; 
+	left: -48px; 
+	background-image: url(../img/taobao_search_btn.png); 
+	visibility: hidden;
+	z-index: 3;
+
+	transition:top 0.5s,left 0.5s,width 0.5s;
+	-moz-transition:top 0.5s,left 0.5s,width 0.5s; /* Firefox 4 */
+	-webkit-transition:top 0.5s,left 0.5s,width 0.5s; /* Safari and Chrome */
+	-o-transition:top 0.5s,left 0.5s,width 0.5s; /* Opera */
+}
+
+#zhihu_search{
+	position: relative; 
+	/*top: -138px; 
+	left: 0px;*/ 
+	top: -198px;
+	left: 0px;
+	background-image: url(../img/zhihu_search_btn.png); 
+	visibility: visible;
+	z-index: 3;
+
+	transition:top 0.5s,left 0.5s,width 0.5s;
+	-moz-transition:top 0.5s,left 0.5s,width 0.5s; /* Firefox 4 */
+	-webkit-transition:top 0.5s,left 0.5s,width 0.5s; /* Safari and Chrome */
+	-o-transition:top 0.5s,left 0.5s,width 0.5s; /* Opera */
+}
+
+#bing_search{
+	position: relative; 
+	/*top: -198px; 
+	left: 44px;*/ 
+	top: -240px;
+	left: 0px;
+	background-image: url(../img/bing_search_btn.png); 
+	visibility: visible;
+	z-index: 3;
+
+	transition:top 0.5s,left 0.5s,width 0.5s;
+	-moz-transition:top 0.5s,left 0.5s,width 0.5s; /* Firefox 4 */
+	-webkit-transition:top 0.5s,left 0.5s,width 0.5s; /* Safari and Chrome */
+	-o-transition:top 0.5s,left 0.5s,width 0.5s; /* Opera */
+}
+
+.more_search_btn{
+	width: 100%;
+	height: 160px;
+	background-color: transparent;
+	margin: 0 auto;
+	/*border: 1px solid blue;*/
+}
+
+.bottom_container{
+	width: 100%;
+	height: 64px;
+	/*border: 1px solid red;*/
+	position: absolute;
+	bottom: 0px;
+	background-color: #ffffff;
+	font-size: 12px;
+	font-family: "microsoft yahei",arial, "Hiragino Sans GB", "Hiragino Sans GB W3", 宋体;
+	color: #969696;
+	background-color: transparent;
+	/*opacity: 0.38;*/
+	text-align: center;
+	line-height: 64px;
+}
+
+
+
+
+
+
+
+
