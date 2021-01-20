@@ -1,2 +1,2 @@
-# Aibition.github.io
+# Aibition
 This is my first github repository
