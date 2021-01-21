@@ -68,12 +68,12 @@ function hideOtheSearchBtn() {
 
 
 //执行搜索
-function AoosooSearch(){
+function AibitionSearch(){
     // var obj = window.event.target;//获取触发事件的元素对象
     var eventSourceId = window.event.target.id;//获取触发事件的元素对象的id
     //获取元素
     // alert("The id of the triggered element: "+ eventSourceId);
-    var keyword = document.getElementById("AooSooSearchInput").value;
+    var keyword = document.getElementById("AibitionSearchInput").value;
 
     switch (eventSourceId)
     {
@@ -113,7 +113,7 @@ document.onkeydown=function(event){
     var e = event || window.event || arguments.callee.caller.arguments[0];
     if(e && e.keyCode==13){ // enter 键   
         //要做的事情  
-        AoosooSearch(); 
+        AibitionSearch(); 
         // alert("按 Enter");   
     } 
 }
