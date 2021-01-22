@@ -90,7 +90,7 @@ function AibitionSearch(){
         break;
 
         case "google_search":
-            window.open('https://www.google.com.sg/search?q='+keyword,"_blank");
+            window.open('https://www.google.com.hk/search?q='+keyword,"_blank");
         break;
 
         case "bing_search":
